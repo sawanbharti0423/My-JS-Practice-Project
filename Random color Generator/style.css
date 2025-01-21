@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    height: 100vh;
+}
+
+.code {
+    background: #9d9d9d;
+    border: 1px solid black;
+    width: 300px;
+    color: black;
+    margin: auto;
+    padding: 30px 40px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+h3 {
+    font-size: 2rem;
+    padding-bottom: 30px;
+    margin-bottom: 1ren;
+}
+
+button {
+    padding: 10px 30px;
+    background-color: black;
+    color: white;
+    font-size: 1.3rem;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    font-weight: 600;
+    cursor: pointer;
+}

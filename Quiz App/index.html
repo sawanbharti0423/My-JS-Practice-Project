@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quize Game</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="box">
+        <h2 id="que-box">1) This is a Dummy Question.</h2>
+        <div class="row">
+          <input
+            type="radio"
+            class="options"
+            value="a"
+            id="option-a"
+            name="options"
+          />
+          <label for="option-a">Option</label>
+        </div>
+        <div class="row">
+          <input
+            type="radio"
+            class="options"
+            value="b"
+            id="option-b"
+            name="options"
+          />
+          <label for="option-b">Option</label>
+        </div>
+        <div class="row">
+          <input
+            type="radio"
+            class="options"
+            value="c"
+            id="option-c"
+            name="options"
+          />
+          <label for="option-c">Option</label>
+        </div>
+        <div class="row">
+          <input
+            type="radio"
+            class="options"
+            value="d"
+            id="option-d"
+            name="options"
+          />
+          <label for="option-d">Option</label>
+        </div>
+        <button id="btn" onclick="submitQuiz()">Submit</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

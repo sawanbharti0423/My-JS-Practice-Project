@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #42858C;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.main {
+
+    width: 40vw;
+    background-color: #7de6e4;
+    padding: 2rem;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0px 0px 15px rgb(50, 50, 50);
+}
+
+.box {
+    width: 100%;
+}
+
+span#pass-box {
+    background: white;
+    display: block;
+    width: 100%;
+    padding: 0.7rem;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 2.5rem;
+    border-radius: 8px;
+}
+
+.raw {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.left {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+input[type="number"] {
+    width: 3.2rem;
+    padding: 0.2rem;
+    text-align: center;
+    border-radius: 4px;
+    border: none;
+}
+
+input[type="Checkbox"] {
+    width: 2rem;
+    height: 1.3rem;
+    border-radius: 8px;
+}
+
+button#generate-pass {
+    margin-top: 1rem;
+    padding: 1rem;
+    border-radius: 12px;
+    border: none;
+    font-size: 1.2rem;
+    font-weight: 600;
+    background-color: #304759;
+    color: white;
+    cursor: pointer;
+}
+
+h6#pwdstatus {
+    margin-top: -1.8rem;
+    margin-bottom: 2rem;
+    font-size: medium;
+}

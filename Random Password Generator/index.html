@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>random Password Generator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="box">
+        <span id="pass-box">Testing</span>
+        <h6 id="pwdstatus"></h6>
+        <div class="raw">
+          <div class="left">Password Length</div>
+          <div class="right">
+            <input type="number" id="total-num" min="2" max="99" value="2"/>
+          </div>
+        </div>
+        <div class="raw">
+          <div class="left">Contains Uppercase</div>
+          <div class="right">
+            <input type="Checkbox" id="uppr-case" checked />
+          </div>
+        </div>
+        <div class="raw">
+          <div class="left">Contains Lowercase</div>
+          <div class="right">
+            <input type="Checkbox" id="lower-case" />
+          </div>
+        </div>
+        <div class="raw">
+          <div class="left">Contains Number</div>
+          <div class="right">
+            <input type="Checkbox" id="number" />
+          </div>
+        </div>
+        <div class="raw">
+          <div class="left">Contains Symbol</div>
+          <div class="right">
+            <input type="Checkbox" id="symbol" />
+          </div>
+        </div>
+        <button id="generate-pass">Generate Password</button>
+      </div>
+    </div>
+    <script src="Main.js"></script>
+  </body>
+</html>
